@@ -1,0 +1,21 @@
+body {
+  background-color: green;
+  color: white;
+}
+h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 47vh;
+}
+a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid
+  white;
+}
+a:hover {
+  color: black;
+  border-bottom-color: black;
+}
