@@ -1,0 +1,21 @@
+body {
+  /*clears default margins */
+  margin: 0;
+}
+  /* # refrences an ID */
+#main-container {
+/* # start with a width */
+  width: 600px;
+  /* one number controls top, right, bottom.left */
+  margin: 0;
+  /* two number controls the first number is top and bottom (100px) and the second number is left and right (400px) */
+  margin: 100px auto;
+  /* 3 number - first number controls the top (100px), the 2nd number controls the left and right (400px) and the last number controls the bottom (50px) */
+  /* same as above */
+/*  margin-top: 100px;
+  margin-right: 200px;
+  margin-bottom: 300px;
+  margin-left: 400px
+
+  4 number- first numberis the top (100px), 2nd number is the right (200px), 3rd number is the bottom (300px), and the last number is the left (400px)
+*/

@@ -15,7 +15,6 @@ body{
 h1{
   animation: .8s shake infinite alternate;
   text-align: center;
-  margin-top: 47vh;
   font-family: sans-serif;
   letter-spacing: 2px;
   font-size: 72px;
@@ -28,16 +27,16 @@ h1{
 p{
   font-family: sans-serif;
   text-align: center;
-  margin-top: 30vh;
   margin-bottom: 0;
   font-family: sans-serif;
   letter-spacing: 2px;
   font-size: 60px;
   font-weight: bold;
+  line-height: .5
 }
 
 div{
-  line-height: 2;
+margin-top: 40vh;
 }
 
 a{
