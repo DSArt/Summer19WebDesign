@@ -1,0 +1,20 @@
+body {
+  /*clears default margins */
+  margin: 0;
+}
+  /* # refrences an ID */
+#board {
+/* # start with a width */
+  width: 800px;
+}
+.red, .white{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.red{
+  background-color: red;
+}
+.white{
+  background-color: white;
+}
