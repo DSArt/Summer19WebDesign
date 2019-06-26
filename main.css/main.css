@@ -1,0 +1,48 @@
+/*
+selector {
+  property-name: value;
+}
+*/
+
+body{
+  text-align: center;
+  background-color: silver;
+}
+h1 {
+  font-size: 100px;
+  text-decoration: underline;
+  font-family: Cardinal;
+  text-transform: inherit;
+  letter-spacing: 5px;
+  color: darkgreen;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+font-size: 24px;
+margin-bottom: 24px;
+letter-spacing: 1px;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+a{
+color: black;
+text-decoration: none;
+cursor: pointer;
+transition: color 100ms ease;
+}
+
+a:hover {
+  color: darkgreen;
+}
+.EX {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: black;
+}
