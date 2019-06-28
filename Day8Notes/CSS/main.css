@@ -1,0 +1,16 @@
+body {
+  /*clears default margins */
+  margin: 0;
+}
+#main-container {
+  width: 600px;
+  margin: 100px auto;
+}
+h1 {
+  font-family:'Permanent Marker';
+  font-size: 72px;
+  font-weight: 400px;
+}
+p {
+  font-family:'', sans-serif;
+}
