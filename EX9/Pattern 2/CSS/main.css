@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+#main-container {
+  width: 120vw;
+  margin: -25px -5vw;
+}
+.piece1,
+.piece2,
+.piece3,
+.piece4 {
+  width: 100px;
+  height: 200px;
+  float: left;
+  margin: -30px;
+  opacity: .8;
+  /*border-radius: 50%; */
+  border: 5px solid white;
+}
+.piece1 {
+  width: 30;
+  height: 30;
+  transform: rotate(18deg);
+  border-left: 30px solid;
+  border-right: 30px solid;
+  background-color: green;
+}
+.piece2 {
+    background-color: grey;
+    transform: rotate(10deg);
+}
+.piece3 {
+    width: 300px;
+    background-color: lavender;
+    transform: rotate(35deg);
+    border-radius: 100%;
+}
+.piece4 {
+    width: 500px;
+    background-color: dodgerblue;
+    transform: rotate(45deg);
+    border-radius: 10%;
+}
