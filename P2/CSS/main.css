@@ -34,7 +34,7 @@ a:hover {
 h1{
   animation: .8s shake infinite alternate;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Edo;
   letter-spacing: 2px;
   font-size: 72px;
 }
@@ -47,7 +47,7 @@ p{
   font-family: sans-serif;
   text-align: center;
   margin-bottom: 0;
-  font-family: sans-serif;
+  font-family: Edo;
   letter-spacing: 2px;
   font-size: 60px;
   font-weight: bold;
