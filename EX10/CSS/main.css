@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: dodgerblue;
 }
 #main-container {
   width: 120vw;
@@ -29,6 +30,7 @@ body {
   background-color: yellow;
   transform: rotate(90deg);
   margin-left: 483px;
+  margin-top: 100px;
 }
 .ray2 {
   width: 500px;
