@@ -18,7 +18,7 @@ margin-top: 100px;
 margin-bottom: 24px;
 letter-spacing: 1px;
 font-weight: bold;
-font-family: sans-serif;
+font-family: 'Edo';
 }
 
 a{
@@ -34,7 +34,7 @@ a:hover {
 h1{
   animation: .8s shake infinite alternate;
   text-align: center;
-  font-family: Edo;
+  font-family: 'Edo';
   letter-spacing: 2px;
   font-size: 72px;
 }
@@ -44,10 +44,9 @@ h1{
 }
 
 p{
-  font-family: sans-serif;
   text-align: center;
   margin-bottom: 0;
-  font-family: Edo;
+  font-family: 'Edo';
   letter-spacing: 2px;
   font-size: 60px;
   font-weight: bold;
@@ -71,7 +70,7 @@ text-decoration: underline;
 }
 .big {
   font-style: normal;
-  font-family: Edo;
+  font-family: 'Edo';
   font-size: 50px;
   color: black;
 }
