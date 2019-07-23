@@ -1,0 +1,809 @@
+body {
+
+}
+.paper {
+  width: 95vw;
+  margin: 2.5vw auto;
+  background-image: url("../img/PaperCropped.png");
+  /* background-color: tan; */
+  padding: 2.5vw 0;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 0;
+}
+.paper3 {
+  width: 95vw;
+  margin: 2.5vw auto;
+  margin-bottom: 1vw;
+  background-image: url("../img/PaperCropped.png");
+  padding-bottom: 60vw;
+  padding-top: 2.5vw;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 0;
+}
+h1 {
+  margin-top: -20px;
+  font-family: 'Magic School Two';
+  font-size: 230px;
+  text-align: center;
+  line-height: 90%;
+}
+h2 {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  font-family: 'Magic School Two';
+  font-size: 125px;
+  text-align: center;
+}
+h4 {
+  margin-top: -170px;
+  font-family: 'Magic School Two';
+  font-size: 37px;
+  text-align: right;
+}
+.content-block {
+  width: 63%;
+  margin: 0 auto;
+  font-family: 'Gill Sans'
+}
+.intro {
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.text-block {
+  width: 60%;
+  margin: 25px auto;
+  text-align: left;
+}
+p {
+  line-height: 25px;
+  font-size: 20px;
+}
+
+img.HermioneWand {
+  width:7.5%;
+  transform: rotate(-40deg);
+  position: relative;
+  bottom: 20px;
+  left: 37%;
+  z-index: 5;
+}
+img.resize2 {
+  /* max-width:250%;
+  max-height:250%;
+  transform: rotate(-15deg);
+  margin-top: -20px;
+  margin-left: 90px;
+  position: relative; */
+}
+img.rotate2 {
+  transform: rotate(130deg);
+}
+img {
+  width: 100%;
+}
+
+img.ink5 {
+  width:15%;
+  position: absolute;
+  right: 70%;
+  top: 200px;
+}
+img.ink4 {
+  width:3%;
+  position: absolute;
+  right: 13%;
+  bottom: 50px;
+  z-index: 0;
+}
+img.Bird	{
+  width: 50%;
+  position: absolute;
+  left: 15%;
+  bottom: 250px;
+	}
+.ink8 {
+  width:8%;
+  position: absolute;
+  right: 20%;
+  bottom: 600px;
+  z-index: -1;
+}
+img.feather {
+  width: 30%;
+  position: absolute;
+  right: 2px;
+  top: 12%;
+  z-index: -1;
+}
+img.Hair {
+  width:20%;
+  position: absolute;
+  top: 40px;
+  right: 15%;
+}
+img.HeartStrings {
+  width:20%;
+  position: absolute;
+  top: 140px;
+  left: 75%;
+}
+img.Dragon {
+  width: 50%;
+  position: absolute;
+  left: 23%;
+  bottom: 400px;
+}
+.ink6 {
+  width:10%;
+  position: absolute;
+  bottom: 150px;
+  left: 5%;
+  z-index: 5;
+}
+.ink7 {
+  width:8%;
+  position: absolute;
+  bottom: 300px;
+  left: 60%;
+  z-index: 3;
+}
+img.HarryPotterWand {
+  width:74%;
+  transform: rotate(130deg);
+  position: absolute;
+  bottom: 350px;
+  left: 20%;
+  z-index: 5;
+}
+.rotate3 {
+		/* position: absolute; */
+		/* top: 220px;
+		left: 80px; */
+	}
+.Overlap {
+  /* position: relative; */
+  background-color: red;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.Unicorn {
+  width: 70%;
+  mix-blend-mode: multiply;
+}
+.RonWand {
+  width:75%;
+  transform: rotate(-15deg);
+  position: absolute;
+  bottom: 200px;
+  left: 20%;
+  z-index: 5;
+  /* float: left; */
+}
+.scribble {
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  bottom: 40px;
+  /* margin-bottom: -700px; */
+}
+.DYWtxt {
+  font-family: 'Gill Sans';
+  font-size: 38px;
+  position: absolute;
+  left: 38%;
+  bottom: 75px;
+  /* top: -24%; */
+  text-align: center;
+}
+a {
+  color: tan;
+  text-decoration: none;
+}
+.HarryPotterWand:hover {
+  animation: HarryPotterWandshake 2.0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes HarryPotterWandshake {
+  0% { transform: translate(1px, 1px) rotate(130deg); }
+  10% { transform: translate(-1px, -2px) rotate(131deg); }
+  20% { transform: translate(-3px, 0px) rotate(130deg); }
+  30% { transform: translate(3px, 2px) rotate(131deg); }
+  40% { transform: translate(1px, -1px) rotate(130deg); }
+  50% { transform: translate(-1px, 2px) rotate(131deg); }
+  60% { transform: translate(-3px, 1px) rotate(130deg); }
+  70% { transform: translate(3px, 1px) rotate(131deg); }
+  80% { transform: translate(-1px, -1px) rotate(130deg); }
+  90% { transform: translate(1px, 2px) rotate(131deg); }
+  100% { transform: translate(1px, -2px) rotate(130deg); }
+}
+
+.HermioneWand:hover {
+  animation: HermioneWandshake 2.0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes HermioneWandshake {
+  0% { transform: translate(1px, 1px) rotate(-40deg); }
+  10% { transform: translate(-1px, -2px) rotate(-41deg); }
+  20% { transform: translate(-3px, 0px) rotate(-40deg); }
+  30% { transform: translate(3px, 2px) rotate(-41deg); }
+  40% { transform: translate(1px, -1px) rotate(-40deg); }
+  50% { transform: translate(-1px, 2px) rotate(-41deg); }
+  60% { transform: translate(-3px, 1px) rotate(-40deg); }
+  70% { transform: translate(3px, 1px) rotate(-41deg); }
+  80% { transform: translate(-1px, -1px) rotate(-40deg); }
+  90% { transform: translate(1px, 2px) rotate(-41deg); }
+  100% { transform: translate(1px, -2px) rotate(-40deg); }
+}
+
+.RonWand:hover {
+  animation: RonWandshake 2.0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes RonWandshake {
+  0% { transform: translate(1px, 1px) rotate(-15deg); }
+  10% { transform: translate(-1px, -2px) rotate(-16deg); }
+  20% { transform: translate(-3px, 0px) rotate(-15deg); }
+  30% { transform: translate(3px, 2px) rotate(-16deg); }
+  40% { transform: translate(1px, -1px) rotate(-15deg); }
+  50% { transform: translate(-1px, 2px) rotate(-16deg); }
+  60% { transform: translate(-3px, 1px) rotate(-15deg); }
+  70% { transform: translate(3px, 1px) rotate(-16deg); }
+  80% { transform: translate(-1px, -1px) rotate(-15deg); }
+  90% { transform: translate(1px, 2px) rotate(-16deg); }
+  100% { transform: translate(1px, -2px) rotate(-15deg); }
+}
+
+a:hover {
+  text-decoration: none;
+  transition: color 100ms ease;
+  cursor: pointer;
+  color: black;
+}
+@media only screen and (max-width: 1430px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 206px;
+    text-align: center;
+    line-height: 90%;
+  }
+  h4 {
+    margin-top: -150px;
+    font-family: 'Magic School Two';
+    font-size: 30px;
+    text-align: right;
+  }
+  .intro {
+    font-size: 47px;
+    font-style: bold;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1410px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 206px;
+    text-align: center;
+    line-height: 90%;
+  }
+  h4 {
+    margin-top: -150px;
+    font-family: 'Magic School Two';
+    font-size: 30px;
+    text-align: right;
+  }
+  .intro {
+    font-size: 47px;
+    font-style: bold;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 206px;
+    text-align: center;
+    line-height: 90%;
+  }
+  h4 {
+    margin-top: -150px;
+    font-family: 'Magic School Two';
+    font-size: 30px;
+    text-align: right;
+  }
+  .intro {
+    font-size: 47px;
+    font-style: bold;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .DYWtxt {
+    font-family: 'Gill Sans';
+    font-size: 38px;
+    position: absolute;
+    left: 37%;
+    bottom: 68px;
+    /* top: -24%; */
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1290px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 204px;
+    text-align: center;
+    line-height: 90%;
+  }
+  img.Dragon {
+    width: 53%;
+    position: absolute;
+    left: 23%;
+    bottom: 290px;
+  }
+  .ink7 {
+    width:8%;
+    position: absolute;
+    bottom: 200px;
+    left: 65%;
+    z-index: 3;
+  }
+  .intro {
+    font-size: 46px;
+    font-style: bold;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 200px;
+    text-align: center;
+    line-height: 90%;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 198px;
+    text-align: center;
+    line-height: 90%;
+  }
+  .intro {
+    font-size: 45px;
+    font-style: bold;
+    line-height: 50px;
+    text-align: center;
+  }
+  .scribble {
+    width: 34%;
+    position: absolute;
+    left: 34%;
+    bottom: 35px;
+  }
+}
+@media only screen and (max-width: 1230px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 196px;
+    text-align: center;
+    line-height: 90%;
+  }
+  .intro {
+    font-size: 44px;
+    font-style: bold;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1210px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 194px;
+    text-align: center;
+    line-height: 90%;
+  }
+}
+@media only screen and (max-width: 1205px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 190px;
+    text-align: center;
+    line-height: 90%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 179px;
+    text-align: center;
+    line-height: 90%;
+  }
+  h4 {
+    margin-top: -130px;
+    font-family: 'Magic School Two';
+    font-size: 30px;
+    text-align: right;
+  }
+  img.Dragon {
+    width: 55%;
+    position: absolute;
+    left: 20%;
+    bottom: 290px;
+  }
+  .ink7 {
+    width:8%;
+    position: absolute;
+    bottom: 200px;
+    left: 65%;
+    z-index: 3;
+  }
+  .scribble {
+    width: 34%;
+    position: absolute;
+    left: 35%;
+    bottom: 40px;
+    /* margin-bottom: -700px; */
+  }
+  .DYWtxt {
+    font-family: 'Gill Sans';
+    font-size: 38px;
+    position: absolute;
+    left: 38%;
+    bottom: 72px;
+    /* top: -24%; */
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 175px;
+    text-align: center;
+    line-height: 90%;
+  }
+  h4 {
+    margin-top: -130px;
+    font-family: 'Magic School Two';
+    font-size: 30px;
+    text-align: right;
+  }
+  .intro {
+    font-size: 36px;
+    font-style: bold;
+    line-height: 50px;
+    text-align: center;
+  }
+  .DYWtxt {
+    font-family: 'Gill Sans';
+    font-size: 38px;
+    position: absolute;
+    left: 37%;
+    bottom: 66px;
+    /* top: -24%; */
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 160px;
+    text-align: center;
+    line-height: 90%;
+  }
+  h4 {
+    margin-top: -115px;
+    font-family: 'Magic School Two';
+    font-size: 30px;
+    text-align: right;
+  }
+  .text-block {
+    width: 65%;
+    margin: 25px auto;
+    text-align: left;
+  }
+  .RonWand {
+    width:80%;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 120px;
+    left: 10%;
+    z-index: 5;
+    /* float: left; */
+  }
+  .Unicorn {
+    width: 70%;
+    mix-blend-mode: multiply;
+  }
+  img.Dragon {
+    width: 55%;
+    position: absolute;
+    left: 20%;
+    bottom: 250px;
+  }
+  img.Bird	{
+    width: 50%;
+    position: absolute;
+    left: 15%;
+    bottom: 220px;
+  	}
+  img.HarryPotterWand {
+    width:75%;
+    transform: rotate(130deg);
+    position: absolute;
+    bottom: 230px;
+    left: 15%;
+    z-index: 5;
+  }
+  .scribble {
+    width: 37%;
+    position: absolute;
+    left: 35%;
+    bottom: 40px;
+  }
+  .DYWtxt {
+    font-family: 'Gill Sans';
+    font-size: 35px;
+    position: absolute;
+    left: 38%;
+    bottom: 69px;
+    text-align: center;
+  }
+  .ink8 {
+    width:8%;
+    position: absolute;
+    right: 20%;
+    bottom: 450px;
+    z-index: -1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-block{
+    width: 95%;
+  }
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 185px;
+    text-align: center;
+    line-height: 90%;
+  }
+  h4 {
+    margin-top: -140px;
+    font-family: 'Magic School Two';
+    font-size: 30px;
+    text-align: right;
+  }
+  img.Hair {
+    width:30%;
+    top: 120px;
+    right: 5%;
+  }
+  img.ink5 {
+      width:15%;
+      right: 80%;
+      top: 180px;
+    }
+    .intro {
+      font-size: 42px;
+      font-style: bold;
+      line-height: 40px;
+      text-align: center;
+    }
+    .RonWand {
+      width:85%;
+      transform: rotate(-15deg);
+      position: absolute;
+      bottom: 100px;
+      left: 10%;
+      z-index: 5;
+      /* float: left; */
+    }
+    img.HermioneWand {
+      width:8.5%;
+      transform: rotate(-40deg);
+      position: relative;
+      bottom: 20px;
+      left: 35%;
+      z-index: 5;
+    }
+    .scribble {
+      width: 40%;
+      position: absolute;
+      left: 30%;
+      bottom: 40px;
+      /* margin-bottom: -700px; */
+    }
+    .DYWtxt {
+      font-family: 'Gill Sans';
+      font-size: 30px;
+      position: absolute;
+      left: 33%;
+      bottom: 60px;
+      /* top: -24%; */
+      text-align: center;
+    }
+    img.Bird	{
+      width: 55%;
+      position: absolute;
+      left: 5%;
+      bottom: 140px;
+    	}
+    img.HarryPotterWand {
+      width:75%;
+      transform: rotate(130deg);
+      position: absolute;
+      bottom: 230px;
+      left: 15%;
+      z-index: 5;
+    }
+    .ink7 {
+      width:8%;
+      position: absolute;
+      bottom: 150px;
+      left: 65%;
+      z-index: 3;
+    }
+    .ink8 {
+      width:8%;
+      position: absolute;
+      right: 20%;
+      bottom: 400px;
+      z-index: -1;
+    }
+    img.Dragon {
+      width: 55%;
+      position: absolute;
+      left: 20%;
+      bottom: 250px;
+    }
+    p {
+      line-height: 26px;
+      font-size: 22px;
+    }
+    img.feather {
+      width: 30%;
+      position: absolute;
+      right: -10px;
+      top: 12%;
+      z-index: -1;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .content-block{
+      width: 85%;
+    }
+    h1 {
+      margin-top: -20px;
+      font-family: 'Magic School Two';
+      font-size: 150px;
+      text-align: center;
+      line-height: 90%;
+  }
+  h4 {
+    margin-top: -120px;
+    font-family: 'Magic School Two';
+    font-size: 30px;
+    text-align: right;
+  }
+  .scribble {
+    width: 41%;
+    position: absolute;
+    left: 31%;
+    bottom: 43px;
+  }
+}
+@media only screen and (max-width: 510px) {
+h1 {
+  margin-top: 3px;
+  font-family: 'Magic School Two';
+  font-size: 107px;
+  text-align: center;
+  line-height: 90%;
+  }
+h4 {
+  margin-top: -80px;
+  font-family: 'Magic School Two';
+  font-size: 20px;
+  text-align: right;
+  }
+.scribble {
+  width: 41%;
+  position: absolute;
+  left: 31%;
+  bottom: 20px;
+  }
+.DYWtxt {
+  font-family: 'Gill Sans';
+  font-size: 20px;
+  position: absolute;
+  left: 34%;
+  bottom: 25px;
+  text-align: center;
+}
+  .intro {
+    font-size: 25px;
+    font-style: bold;
+    line-height: 40px;
+    text-align: center;
+  }
+  .text-block {
+    width: 75%;
+    margin: 25px auto;
+    text-align: left;
+  }
+  p {
+    line-height: 28px;
+    font-size: 20px;
+  }
+  img.Dragon {
+    width: 55%;
+    position: absolute;
+    left: 20%;
+    bottom: 150px;
+  }
+  img.HeartStrings {
+    width:20%;
+    position: absolute;
+    top: 130px;
+    left: 78%;
+  }
+  img.Bird	{
+    width: 55%;
+    position: absolute;
+    left: 5%;
+    bottom: 90px;
+    }
+  img.HarryPotterWand {
+    width:75%;
+    transform: rotate(130deg);
+    position: absolute;
+    bottom: 150px;
+    left: 15%;
+    z-index: 5;
+  }
+  .ink8 {
+    width:8%;
+    position: absolute;
+    right: 20%;
+    bottom: 260px;
+    z-index: -1;
+  }
+}
+  @media only screen and (max-width: 320px) {
+    h1 {
+      margin-top: -20px;
+      font-family: 'Magic School Two';
+      font-size: 100px;
+      text-align: center;
+      line-height: 90%;
+    }
+
+
+  }
+}
