@@ -803,7 +803,7 @@ h4 {
     z-index: -1;
   }
 }
-  @media only screen and (width: 300px) {
+  @media only screen and (width: 320px) {
     h1 {
       margin-top: -20px;
       font-family: 'Magic School Two';
