@@ -23,12 +23,12 @@ body {
   z-index: 0;
 }
 @font-face {
-  font-family: Magic School Two;
-  src: url(MagicSchoolTwo.ttf);
+  font-family: 'MagicSchoolTwo';
+  src: url("MagicSchoolTwo.ttf");
 }
 
 div {
-  font-family: Magic School Two;
+  font-family: 'MagicSchoolTwo';
 }
 h1 {
   margin-top: -20px;
@@ -807,7 +807,7 @@ h4 {
     h1 {
       margin-top: -20px;
       font-family: 'Magic School Two';
-      font-size: 30px;
+      font-size: 16px;
       text-align: center;
       line-height: 90%;
     }
@@ -815,7 +815,7 @@ h4 {
       margin-top: -20px;
       margin-bottom: 10px;
       font-family: 'Magic School Two';
-      font-size: 30px;
+      font-size: 16px;
       text-align: center;
     }
 
