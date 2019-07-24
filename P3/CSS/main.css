@@ -23,12 +23,12 @@ body {
   z-index: 0;
 }
 @font-face {
-  font-family: 'MagicSchoolTwo';
+  font-family: 'Magic School Two';
   src: url("MagicSchoolTwo.ttf");
 }
 
 h1, h2, h4, {
-  font-family: 'MagicSchoolTwo';
+  font-family: 'Magic School Two';
   font-weight: normal;
 }
 h1 {
