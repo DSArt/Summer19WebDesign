@@ -519,6 +519,36 @@ a:hover {
     text-align: center;
   }
 }
+@media only screen and (max-width: 1080px) {
+  h1 {
+    margin-top: -20px;
+    font-family: 'Magic School Two';
+    font-size: 160px;
+    text-align: center;
+    line-height: 90%;
+  }
+  h4 {
+    margin-top: -130px;
+    font-family: 'Magic School Two';
+    font-size: 30px;
+    text-align: right;
+  }
+  .intro {
+    font-size: 36px;
+    font-style: bold;
+    line-height: 50px;
+    text-align: center;
+  }
+  .DYWtxt {
+    font-family: 'Gill Sans';
+    font-size: 38px;
+    position: absolute;
+    left: 37%;
+    bottom: 66px;
+    /* top: -24%; */
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 1024px) {
   h1 {
     margin-top: -20px;
@@ -822,33 +852,4 @@ h4 {
       font-size: 40px;
       text-align: center;
     }
-    @media only screen and (max-width: 300px) {
-      h1 {
-        margin-top: -20px;
-        font-family: 'Magic School Two';
-        font-size: 40px;
-        text-align: center;
-        line-height: 90%;
-      }
-      h2 {
-        margin-top: -20px;
-        margin-bottom: 10px;
-        font-family: 'Magic School Two';
-        font-size: 30px;
-        text-align: center;
-      }
-      .scribble {
-        width: 41%;
-        position: absolute;
-        left: 31%;
-        bottom: 20px;
-        }
-      .DYWtxt {
-        font-family: 'Gill Sans';
-        font-size: 20px;
-        position: absolute;
-        left: 34%;
-        bottom: 20px;
-        text-align: center;
-      }
 }
