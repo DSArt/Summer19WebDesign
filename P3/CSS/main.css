@@ -37,6 +37,7 @@ h1 {
   font-size: 230px;
   text-align: center;
   line-height: 90%;
+  font-weight: normal;
 }
 h2 {
   margin-top: -20px;
@@ -44,12 +45,14 @@ h2 {
   font-family: 'Magic School Two';
   font-size: 125px;
   text-align: center;
+  font-weight: normal;
 }
 h4 {
   margin-top: -170px;
   font-family: 'Magic School Two';
   font-size: 37px;
   text-align: right;
+  font-weight: normal;
 }
 .content-block {
   width: 63%;
