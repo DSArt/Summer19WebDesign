@@ -11,7 +11,7 @@ body{
 h1 {
   font-size: 100px;
   text-decoration: underline;
-  font-family: Cardinal;
+  font-family: 'Cardinal';
   text-transform: inherit;
   letter-spacing: 5px;
   color: darkgreen;
